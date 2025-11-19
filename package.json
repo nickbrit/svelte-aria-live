@@ -1,24 +1,41 @@
 {
     "name": "svelte-aria-live",
     "version": "0.1.0",
+    "description": "Accessible Svelte utilities for live regions, screen reader announcements, and accessibility helpers",
     "type": "module",
     "license": "MIT",
-    "svelte": "./package/index.js",
-    "types": "./package/index.d.ts",
+    "keywords": [
+        "svelte",
+        "accessibility",
+        "a11y",
+        "aria-live",
+        "screen-reader",
+        "announcements"
+    ],
+    "author": "nickbrit",
+    "svelte": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "exports": {
         ".": {
-            "svelte": "./package/index.js",
-            "types": "./package/index.d.ts",
-            "default": "./package/index.js"
+            "svelte": "./dist/index.js",
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
         }
     },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "sideEffects": false,
     "scripts": {
         "build": "svelte-package",
         "check": "svelte-check --tsconfig ./tsconfig.lib.json",
         "test": "vitest run",
         "dev:demo": "pnpm --filter demo dev",
         "build:demo": "pnpm --filter demo build",
-        "preview:demo": "pnpm --filter demo preview"
+        "preview:demo": "pnpm --filter demo preview",
+        "prepublishOnly": "pnpm run check && pnpm run build"
     },
     "peerDependencies": {
         "svelte": "^4.2.0 || ^5.0.0"
@@ -31,6 +48,9 @@
         "typescript": "^5.5.0",
         "vite": "^5.0.0",
         "vitest": "^1.5.0"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40",
     "repository": {
