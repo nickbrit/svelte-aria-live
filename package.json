@@ -32,5 +32,13 @@
         "vite": "^5.0.0",
         "vitest": "^1.5.0"
     },
-    "packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40"
+    "packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nickbrit/svelte-aria-live.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nickbrit/svelte-aria-live/issues"
+    },
+    "homepage": "https://github.com/nickbrit/svelte-aria-live#readme"
 }

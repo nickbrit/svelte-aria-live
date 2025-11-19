@@ -1,5 +1,8 @@
 # svelte-aria-live
 
+[![npm](https://img.shields.io/npm/v/svelte-aria-live.svg)](https://www.npmjs.com/package/svelte-aria-live)
+[![GitHub](https://img.shields.io/github/license/YOUR_USERNAME/svelte-aria-live.svg)](LICENSE)
+
 Tiny, headless accessibility toolkit for Svelte/SvelteKit: dual `aria-live` regions, imperative `announce()` API, screen-reader utility components, and a route-change helper.
 
 ## Features
