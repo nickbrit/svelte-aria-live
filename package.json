@@ -1,0 +1,36 @@
+{
+    "name": "svelte-aria-live",
+    "version": "0.1.0",
+    "type": "module",
+    "license": "MIT",
+    "svelte": "./package/index.js",
+    "types": "./package/index.d.ts",
+    "exports": {
+        ".": {
+            "svelte": "./package/index.js",
+            "types": "./package/index.d.ts",
+            "default": "./package/index.js"
+        }
+    },
+    "scripts": {
+        "build": "svelte-package",
+        "check": "svelte-check --tsconfig ./tsconfig.lib.json",
+        "test": "vitest run",
+        "dev:demo": "pnpm --filter demo dev",
+        "build:demo": "pnpm --filter demo build",
+        "preview:demo": "pnpm --filter demo preview"
+    },
+    "peerDependencies": {
+        "svelte": "^4.2.0 || ^5.0.0"
+    },
+    "devDependencies": {
+        "@sveltejs/package": "^2.3.0",
+        "@sveltejs/vite-plugin-svelte": "^3.0.0",
+        "svelte": "^5.0.0",
+        "svelte-check": "^3.6.0",
+        "typescript": "^5.5.0",
+        "vite": "^5.0.0",
+        "vitest": "^1.5.0"
+    },
+    "packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40"
+}

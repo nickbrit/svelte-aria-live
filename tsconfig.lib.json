@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "package",
+    "noEmit": false
+  },
+  "include": ["src/lib"],
+  "exclude": ["demo", "node_modules"]
+}

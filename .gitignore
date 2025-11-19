@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Build artifacts
+package/
+dist/
+.svelte-kit/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+npm-debug.log*
+.vitest
+coverage/
+
+# Demo
+demo/dist/
+demo/node_modules/
+
