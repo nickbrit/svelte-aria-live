@@ -5,6 +5,8 @@
 
 Tiny, headless accessibility toolkit for Svelte/SvelteKit: dual `aria-live` regions, imperative `announce()` API, screen-reader utility components, and a route-change helper.
 
+[Demo page](https://nickbrit.github.io/svelte-aria-live/)
+
 ## Features
 
 -   Dual off-screen live regions (`polite` & `assertive`) to avoid priority clashes
